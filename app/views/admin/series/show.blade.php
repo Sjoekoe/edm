@@ -1,0 +1,1 @@
+/Users/hansjonckers/Desktop/Sites/EDM-School/app/views/series/show.blade.php

@@ -1,0 +1,509 @@
+h1 h2 h3 h4 {
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3 a {
+    color: #000000;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.fa {
+    margin-right: 7px;
+}
+
+.fa-fw {
+    color: #777777;
+}
+
+.jumbotron {
+    background: url("../pictures/jumbotron_bg.jpg") 50% 27%;
+    height: 600px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    margin-top: 250px;
+}
+
+.btn-custom {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.btn-custom:hover {
+    color: #FFFFFF;
+}
+
+.btn-signup {
+    background: #FFFFFF;
+    color: #444444;
+    border-radius: 0;
+    padding: 0.7em 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.piece:nth-child(odd) .lessons_heading {
+    color: #444444;
+}
+
+.piece h2 {
+    margin-top: 0;
+}
+
+.piece-light {
+    background: #C8C7B6;
+}
+
+.piece-dark {
+    background: #2C2727;
+    color: #C8C7B6;
+}
+
+.wrap {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.item-box {
+    height: 200px;
+    line-height: 170px;
+    padding: 0;
+    background: #EDB559;
+    border: 10px solid #C8C7B6;
+}
+
+.item-box h2 {
+    color: #FFFFFF;
+    background: #2C2727;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 3px 10px;
+}
+
+.item-box i {
+    font-size: 5em;
+}
+
+.testimonial {
+    margin-bottom: 3em;
+    background: #FFF8E8;
+    padding: 2em;
+    min-height: 169px;
+    border-right: 30px solid #C8C7B6;
+}
+
+.testimonials h4 {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.media-heading {
+    margin: 0 0 5px;
+}
+
+.section {
+    margin-bottom: 5em;
+    overflow: hidden;
+}
+
+.join h1 {
+    text-align: center;
+    margin-bottom: 2.2em;
+    font-size: 3.5em;
+}
+
+.plan {
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 370px;
+    padding: 0 0 3em;
+}
+
+.plan h2 {
+    margin-top: 0;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+.plan h3 {
+    font-size: 5.6em;
+    margin: 0;
+}
+
+.plan p {
+    margin-bottom: 2em;
+}
+
+.plan.monthly {
+    background: #FCB957;
+}
+
+.plan.monthly h2.monthly-heading {
+    background: #E3A54A;
+    border-bottom: 1px solid #CB9445;
+}
+
+.plan p {
+    color: #333333;
+    padding: 0 6em;
+}
+
+.plan.half-yearly {
+    background: #E05546;
+}
+
+.plan.half-yearly h2.half-yearly-heading {
+    background: #BD4639;
+    border-bottom: 1px solid #98382E;
+}
+
+.plan.yearly {
+    background: #7BAAB0;
+}
+
+.plan.yearly h2.yearly-heading {
+    background: #699398;
+    border-bottom: 1px solid #5E8287;
+}
+
+.panel.registration .panel-body, .panel.registration .panel-heading, .panel.registration .panel-footer {
+    padding: 50px;
+}
+
+.registration .panel-heading .cc-icons, .registration .panel-heading .cc-icons img {
+    float: right;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner {
+    background: #2C2727;
+    padding: 7em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-profile {
+    padding: 1.5em;
+    overflow: visible;
+    min-height: 200px;
+    border-top: none !important;
+}
+
+.banner-profile_links {
+    color: #C5C5C5;
+    font-size: 1.1em;
+    padding-left: 0;
+    float: right;
+    text-align: right;
+}
+
+.naked li {
+    list-style: none;
+}
+
+.banner-profile_links li {
+    font-size: 0.8em;
+    line-height: 2.2em;
+}
+
+.signup-banner {
+    padding: 8em 0;
+}
+
+#signup-form {
+    margin-top: -91px;
+}
+
+#signup-form .panel {
+    border-color: #C5C5C5;
+}
+
+#signup-form .panel-heading {
+    color: #FFFFFF;
+    background: #EDB559;
+}
+
+#signup-form .panel-title {
+    font-size: 26px;
+}
+
+#signup-form fieldset {
+    margin-bottom: 4em;
+}
+
+.signup-subheading {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    font-weight: 300;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.profile_avatar {
+    border: 1px solid #666666;
+    padding: 5px;
+    width: 190px;
+    float: left;
+}
+
+.profile_stats {
+    background: #E3A54A;
+    border-bottom: 1px solid #CB9445;
+}
+
+.profile_stats .container {
+    position: relative;
+}
+
+.profile_stats ul {
+    padding: 1em 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.profile_stats li {
+    display: inline;
+    float: right;
+    margin-left: 5em;
+    text-align: right;
+}
+
+.profile_stats-heading {
+    display: block;
+    color: #C5C5C5;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.profile_stats-heading a {
+    color: #C5C5C5;
+}
+
+.profile_stats-count {
+    color: #FFFFFF;
+    font-size: 31px;
+    font-weight: 300;
+}
+
+li.profile_stats-join-date {
+    margin-right: 0;
+    float: right;
+}
+
+.profile_name {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    top: 29px;
+    line-height: 1em;
+    margin: 0;
+    float: left;
+}
+
+.profile_name a {
+    color: inherit;
+}
+
+a#editProfile {
+    vertical-align: top;
+    margin-left: 11px;
+}
+
+.full-center {
+    display: table;
+}
+
+.full-center-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lessons_heading {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 2.7em;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #000000;
+}
+
+.lessons_heading a {
+    color: inherit;
+}
+
+.lesson-set {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.lesson-set:last-child, .result-set:last-child {
+    border-bottom: none !important;
+}
+
+.lesson-set:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.lesson-block {
+    margin-bottom: 3em;
+}
+
+.lesson-block-title {
+    margin-top: O;
+    margin-bottom: 5px;
+    padding: 5px 60px 5px 0;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #444444;
+    font-weight: 500;
+}
+
+.lesson-block .full-center {
+    margin-bottom: 0;
+    background: #F8F5F0;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.lesson-block-status {
+    margin-left: -8px;
+    color: #FFFFFF;
+    background: #C97A73;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding: 5px 4px;
+}
+
+.lesson-block-status.lesson-block-status_watched {
+    right: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.lesson-block-excerpt {
+    color: #FFFFFF;
+    display: none;
+}
+
+.lesson-block-excerpt .full-center-inner {
+    text-align: left;
+    padding: 0 2em;
+}
+
+.lesson-block-details {
+    display: block;
+    position: relative;
+}
+
+.lesson-block-details ul {
+    text-align: left;
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    width: 200px;
+    color: #333333;
+    font-size: 12px;
+    margin-top: 1em;
+    padding-left: 0;
+    font-weight: bold;
+    list-style: none;
+}
+
+.lesson-block-details ul i {
+    margin: 7px;
+    position: relative;
+    top: 2px;
+}
+
+.lesson-block-details ul span {
+    font-weight: normal;
+}
+
+i.lesson-thumbnail {
+    font-size: 8em;
+    color: #FFFFFF;
+    position: relative;
+    line-height: 1em;
+    position: absolute;
+    left: 15px;
+    top: 32px;
+    color: #BB574E;
+}
+
+.lesson-block-meta {
+    padding: 5px 5px 5px 10px;
+    overflow: hidden;
+    font-size: 11px;
+    line-height: 2em;
+    background: #444444;
+    color: #F8F5F0;
+}
+
+.lesson-block-meta .lesson-date {
+    float: left;
+}
+
+.lesson-block-meta i {
+    margin-right: 0.5em;
+    color: #E8DECD;
+}
+
+.lesson-block-meta small {
+    font-size: inherit;
+}
+
+.alert {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+    background: #7BAAB0;
+    border: 1px solid #5E8287;
+    color: #FFFFFF;
+    width: 250px;
+    z-index: 200;
+}
