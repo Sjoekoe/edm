@@ -24,3 +24,13 @@ EDM\Series\Serie:
   views: $integer
   created_at: $date
   updated_at: $date
+
+EDM\Artist\Artist:
+  name: $string$integer
+  slug: $string
+  website: $string
+  bio: $text
+  label: $string
+  promomail: $string@example.com
+  created_at: $date
+  updated_at: $date
