@@ -1,6 +1,6 @@
 <?php namespace EDM\Series;
 use EDM\Artist\ArtistRepository;
-use EDM\Files\FilesRepository;
+use EDM\Files\Image;
 use Laracasts\Commander\CommandHandler;
 use EDM\Series\SeriesRepository;
 
@@ -11,7 +11,7 @@ class CreateSerieCommandHandler implements CommandHandler {
      */
     private $artistRepository;
     /**
-     * @var \EDM\Files\FilesRepository
+     * @var \EDM\Files\Image
      */
     private $filesRepository;
     /**
@@ -19,7 +19,7 @@ class CreateSerieCommandHandler implements CommandHandler {
      */
     private $seriesRepository;
 
-    function __construct(ArtistRepository $artistRepository, FilesRepository $filesRepository, SeriesRepository $seriesRepository) {
+    function __construct(ArtistRepository $artistRepository, Image $filesRepository, SeriesRepository $seriesRepository) {
         $this->artistRepository = $artistRepository;
         $this->filesRepository = $filesRepository;
         $this->seriesRepository = $seriesRepository;
@@ -41,7 +41,7 @@ class CreateSerieCommandHandler implements CommandHandler {
 
         $this->seriesRepository->save($serie);
 
-        $image = $this->filesRepository->handleImage($command->image, 'Serie', $serie->id);
+        $image = $this->filesRepository->handle($command->image, 'Serie', $serie->id);
 
         $serie->image = $image->pathName;
 

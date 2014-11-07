@@ -3,10 +3,11 @@
 
 use Illuminate\Support\Facades\File;
 
-class FilesRepository {
+class Image implements FilesInterface {
+
 
     /**
-     * Handle an image and persist it to the storage
+     * Handle the image and persist it
      *
      * @param $file
      * @param $model
@@ -14,8 +15,7 @@ class FilesRepository {
      *
      * @return mixed
      */
-    public function handleImage($file, $model, $id) {
-
+    public function handle($file, $model, $id) {
         $extension  = $file->getClientOriginalExtension();
         $path       = '/images/uploads/' . $model . '/' . $id;
         $filename   = str_random(12);
@@ -28,4 +28,4 @@ class FilesRepository {
 
         return $file;
     }
-} 
+}

@@ -1,7 +1,7 @@
 <?php
 
 use EDM\Artist\ArtistRepository;
-use EDM\Files\FilesRepository;
+use EDM\Files\Image;
 use EDM\Forms\CreateSeriesForm;
 use EDM\Series\SeriesRepository;
 use Laracasts\Flash\Flash;
@@ -14,7 +14,7 @@ class SeriesController extends \BaseController {
      */
     private $seriesForm;
     /**
-     * @var EDM\Files\FilesRepository
+     * @var EDM\Files\Image
      */
     private $filesRepository;
     /**
@@ -26,7 +26,7 @@ class SeriesController extends \BaseController {
      */
     private $seriesRepository;
 
-    function __construct(CreateSeriesForm $seriesForm, FilesRepository $filesRepository, ArtistRepository $artistRepository, SeriesRepository $seriesRepository) {
+    function __construct(CreateSeriesForm $seriesForm, Image $filesRepository, ArtistRepository $artistRepository, SeriesRepository $seriesRepository) {
         $this->seriesForm       = $seriesForm;
         $this->filesRepository  = $filesRepository;
         $this->artistRepository = $artistRepository;
