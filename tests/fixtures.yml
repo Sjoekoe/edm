@@ -1,0 +1,7 @@
+EDM\Users\User:
+  username: $string
+  email: $string$integer@example.com
+  password: $string
+  remember_token: $string
+  created_at: $date
+  updated_at: $date
