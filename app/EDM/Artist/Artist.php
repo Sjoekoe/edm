@@ -5,6 +5,8 @@ use Eloquent;
 class Artist extends Eloquent {
 
     /**
+     * Fillable fields for the Artist
+     *
      * @var array
      */
     protected $fillable = [
@@ -17,6 +19,8 @@ class Artist extends Eloquent {
     ];
 
     /**
+     * Table used for the model
+     *
      * @var string
      */
     protected $table = 'artists';

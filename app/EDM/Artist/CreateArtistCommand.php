@@ -1,5 +1,5 @@
 <?php  namespace EDM\Artist;
-  
+
 class CreateArtistCommand {
 
 
@@ -32,10 +32,10 @@ class CreateArtistCommand {
      * @param $bio
      */
     function __construct($name, $website, $label, $promomail, $bio) {
-        $this->name = $name;
-        $this->website = $website;
-        $this->label = $label;
+        $this->name      = $name;
+        $this->website   = $website;
+        $this->label     = $label;
         $this->promomail = $promomail;
-        $this->bio = $bio;
+        $this->bio       = $bio;
     }
 }
