@@ -5,16 +5,27 @@ use Eloquent;
 class Serie extends Eloquent {
 
     /**
+     * Fillable fields
+     *
      * @var array
      */
-    protected $fillable = ['name', 'slug', 'image', 'text'];
+    protected $fillable = [
+        'name',
+        'slug',
+        'image',
+        'text'
+    ];
 
     /**
+     * Table used for series
+     *
      * @var string
      */
     protected $table = 'series';
 
     /**
+     * Creating a new serie
+     *
      * @param $name
      * @param $slug
      * @param $image

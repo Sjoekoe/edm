@@ -1,5 +1,5 @@
 <?php  namespace EDM\Roles;
-  
+
 use Eloquent;
 
 class Role extends Eloquent {
@@ -13,12 +13,13 @@ class Role extends Eloquent {
 
     /**
      * The fillable fields
-     * 
+     *
      * @var array
      */
-    protected $fillable = ['user_id', 'role_id'];
+    protected $fillable = [
+        'user_id',
+        'role_id'
+    ];
 
 
-
-
-} 
+}
