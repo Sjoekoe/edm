@@ -5,6 +5,8 @@ use Laracasts\Validation\FormValidator;
 class CreateSeriesForm extends FormValidator{
 
     /**
+     * Validation rules for creating a serie
+     *
      * @var array
      */
     protected $rules = [

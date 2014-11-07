@@ -7,7 +7,7 @@ class FilesRepository {
 
     /**
      * Handle an image and persist it to the storage
-     * 
+     *
      * @param $file
      * @param $model
      * @param $id

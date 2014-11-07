@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b9ea2-2900-4011-9f06-841bd80b6cc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Files/FilesRepository.php" afterPath="$PROJECT_DIR$/app/EDM/Files/FilesRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Forms/CreateSeriesForm.php" afterPath="$PROJECT_DIR$/app/EDM/Forms/CreateSeriesForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Forms/UpdateProfileForm.php" afterPath="$PROJECT_DIR$/app/EDM/Forms/UpdateProfileForm.php" />
     </list>
     <ignored path="edm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +27,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FilesRepository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilesRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/EDM/Files/FilesRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24685138" vertical-offset="56" max-vertical-offset="1008">
+            <state vertical-scroll-proportion="-1.3103448" vertical-offset="214" max-vertical-offset="1008">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateArtistForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Forms/CreateArtistForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Forms/LoginForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Forms/RegistrationForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateProfileForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Forms/UpdateProfileForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28211588" vertical-offset="0" max-vertical-offset="868">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
@@ -61,6 +102,8 @@
         <option value="$PROJECT_DIR$/app/EDM/Artist/CreateArtistCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/EDM/Artist/ArtistRepository.php" />
         <option value="$PROJECT_DIR$/app/EDM/Files/FilesRepository.php" />
+        <option value="$PROJECT_DIR$/app/EDM/Forms/CreateSeriesForm.php" />
+        <option value="$PROJECT_DIR$/app/EDM/Forms/UpdateProfileForm.php" />
       </list>
     </option>
   </component>
@@ -198,7 +241,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Files" />
+              <option name="myItemId" value="Forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,7 +559,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/EDM/Files/FilesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24685138" vertical-offset="56" max-vertical-offset="1008">
+        <state vertical-scroll-proportion="-1.3103448" vertical-offset="214" max-vertical-offset="1008">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Forms/CreateSeriesForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28211588" vertical-offset="0" max-vertical-offset="794">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Forms/CreateArtistForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Forms/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Forms/RegistrationForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Forms/UpdateProfileForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28211588" vertical-offset="0" max-vertical-offset="868">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
