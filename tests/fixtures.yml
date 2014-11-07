@@ -5,3 +5,12 @@ EDM\Users\User:
   remember_token: $string
   created_at: $date
   updated_at: $date
+
+EDM\Series\Serie:
+  name: $string$integer
+  slug: $string$integer
+  image: $string.jpg
+  text: $text
+  views: $integer
+  created_at: $date
+  updated_at: $date
