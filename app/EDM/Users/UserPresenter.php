@@ -16,6 +16,11 @@ class UserPresenter extends Presenter{
         return "//www.gravatar.com/avatar/{$email}?s={$size}&d=//placekitten.com/{$size}/{$size}";
     }
 
+    /**
+     * Show the date when the user registered
+     *
+     * @return mixed
+     */
     public function activeSince() {
         return $this->created_at->format('d-m-Y');
     }

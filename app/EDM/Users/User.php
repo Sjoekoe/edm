@@ -15,36 +15,51 @@ use Laravel\Cashier\BillableTrait;
 
 class User extends Eloquent implements UserInterface, RemindableInterface, BillableInterface {
 
-	use UserTrait, RemindableTrait, BillableTrait, EventGenerator, PresentableTrait, RolesTrait;
+    use UserTrait, RemindableTrait, BillableTrait, EventGenerator, PresentableTrait, RolesTrait;
 
     /**
+     * The presenter class for the user
+     *
      * @var string
      */
     protected $presenter = 'EDM\Users\UserPresenter';
 
-	/**
-	 * The database table used by the model.
-	 *
-	 * @var string
-	 */
-	protected $table = 'users';
-
-	/**
-	 * The attributes excluded from the model's JSON form.
-	 *
-	 * @var array
-	 */
-	protected $hidden = array('password', 'remember_token');
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = 'users';
 
     /**
+     * The attributes excluded from the model's JSON form.
+     *
      * @var array
      */
-    protected $fillable = ['username', 'email', 'password'];
+    protected $hidden = array(
+        'password',
+        'remember_token'
+    );
 
     /**
+     * The fillable fields fo the User
      * @var array
      */
-    protected $dates = ['trial_ends_at', 'subscription_ends_at'];
+    protected $fillable = [
+        'username',
+        'email',
+        'password'
+    ];
+
+    /**
+     * The dates used for a subscription
+     *
+     * @var array
+     */
+    protected $dates = [
+        'trial_ends_at',
+        'subscription_ends_at'
+    ];
 
     /**
      * Set up the profile relationship
@@ -79,6 +94,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface, Billa
      * @param $username
      * @param $email
      * @param $password
+     *
      * @return static
      */
     public static function register($username, $email, $password) {
@@ -93,14 +109,12 @@ class User extends Eloquent implements UserInterface, RemindableInterface, Billa
      * Determine if the given user is the same as the current one
      *
      * @param $user
+     *
      * @return bool
      */
     public function is($user) {
-        if (is_null($user)) return false;
+        if ( is_null($user) ) return false;
 
         return $this->username == $user->username;
     }
-
-
-
 }
