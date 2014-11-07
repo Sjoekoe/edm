@@ -19,6 +19,8 @@ class EmailNotifier extends EventListener {
     }
 
     /**
+     * Send an email when the user has registered
+     *
      * @param UserRegistered $event
      */
     public function whenUserRegistered(UserRegistered $event) {

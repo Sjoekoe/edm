@@ -7,7 +7,7 @@ class UpdateProfileForm extends FormValidator{
 
     /**
      * Validation rules for updating a profile
-     * 
+     *
      * @param User $user
      *
      * @return $this
