@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="serieRepositoryTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serieRepositoryTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/serieRepositoryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8236776" vertical-offset="550" max-vertical-offset="1428">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            <state vertical-scroll-proportion="-21.586206" vertical-offset="74" max-vertical-offset="1428">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <element signature="e#7#37#0#PHP" expanded="true" />
               </folding>
@@ -39,22 +39,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeriesRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/EDM/Series/SeriesRepository.php">
+      <file leaf-file-name="fixtures.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.5172415" vertical-offset="0" max-vertical-offset="728">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="868">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtures.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
+      <file leaf-file-name="ProfileRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="532">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/Profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6551723" vertical-offset="31" max-vertical-offset="924">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profileRepositoryTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/profileRepositoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8236776" vertical-offset="522" max-vertical-offset="1400">
+              <caret line="44" column="68" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+              <folding>
+                <element signature="e#7#37#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +127,9 @@
         <option value="$PROJECT_DIR$/tests/integration.suite.yml" />
         <option value="$PROJECT_DIR$/tests/integration/userRepositoryTest.php" />
         <option value="$PROJECT_DIR$/app/EDM/Users/UserRepository.php" />
-        <option value="$PROJECT_DIR$/tests/fixtures.yml" />
         <option value="$PROJECT_DIR$/tests/integration/serieRepositoryTest.php" />
+        <option value="$PROJECT_DIR$/tests/fixtures.yml" />
+        <option value="$PROJECT_DIR$/tests/integration/profileRepositoryTest.php" />
       </list>
     </option>
   </component>
@@ -143,6 +166,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,13 +267,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Series" />
+              <option name="myItemId" value="Profiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,15 +294,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -343,13 +366,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31738034" vertical-offset="0" max-vertical-offset="794">
-          <caret line="9" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.testing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31738034" vertical-offset="0" max-vertical-offset="794">
@@ -452,20 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59949625" vertical-offset="0" max-vertical-offset="868">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27833754" vertical-offset="3" max-vertical-offset="924">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -685,7 +687,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/EDM/Series/SeriesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5172415" vertical-offset="0" max-vertical-offset="728">
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="728">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
@@ -693,16 +695,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="868">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/serieRepositoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8236776" vertical-offset="550" max-vertical-offset="1428">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state vertical-scroll-proportion="-21.586206" vertical-offset="74" max-vertical-offset="1428">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#7#37#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6551723" vertical-offset="31" max-vertical-offset="924">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="532">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/profileRepositoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8236776" vertical-offset="522" max-vertical-offset="1400">
+          <caret line="44" column="68" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
           <folding>
             <element signature="e#7#37#0#PHP" expanded="true" />
           </folding>

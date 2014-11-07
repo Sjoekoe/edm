@@ -6,6 +6,16 @@ EDM\Users\User:
   created_at: $date
   updated_at: $date
 
+EDM\Profiles\Profile:
+  user_id:
+    type: EDM\Users\User
+  location: $string
+  twitter: $string
+  soundcloud: $string
+  website: $string
+  created_at: $date
+  updated_at: $date
+
 EDM\Series\Serie:
   name: $string$integer
   slug: $string$integer
