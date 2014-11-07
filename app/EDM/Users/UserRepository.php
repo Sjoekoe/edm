@@ -71,6 +71,4 @@ class UserRepository {
     protected function isSortable(array $params) {
         return $params['sortBy'] && $params['direction'];
     }
-
-
 } 

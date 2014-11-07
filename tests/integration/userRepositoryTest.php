@@ -20,14 +20,14 @@ class userRepositoryTest extends Test {
     public function it_saves_a_user_to_the_database() {
         $user = TestDummy::create('EDM\Users\User', [
             'username' => 'johnDoe',
-            'email' => 'john@example.com'
+            'email'    => 'john@example.com'
         ]);
 
         $this->repo->save($user);
 
         $this->tester->seeRecord('users', [
             'username' => 'johnDoe',
-            'email' => 'john@example.com'
+            'email'    => 'john@example.com'
         ]);
     }
 
@@ -50,7 +50,4 @@ class userRepositoryTest extends Test {
 
         $this->assertEquals($user->id, $result->id);
     }
-
-
-
 }
