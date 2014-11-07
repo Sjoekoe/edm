@@ -8,5 +8,5 @@ $I->click('Sign Up');
 $I->seeCurrentUrlEquals('/join');
 $I->see('Choose your subscription plan');
 
-$I->click('a.yearly');
+$I->click('.btn.btn-signup.yearly');
 $I->seeCurrentUrlEquals('/signup');
