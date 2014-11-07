@@ -17,6 +17,8 @@ abstract class Mailer {
     }
 
     /**
+     * Send an email to...
+     *
      * @param $user
      * @param $subject
      * @param $view
