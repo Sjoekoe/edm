@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b9ea2-2900-4011-9f06-841bd80b6cc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Mailers/Mailer.php" afterPath="$PROJECT_DIR$/app/EDM/Mailers/Mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Mailers/UserMailer.php" afterPath="$PROJECT_DIR$/app/EDM/Mailers/UserMailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Profiles/Profile.php" afterPath="$PROJECT_DIR$/app/EDM/Profiles/Profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php" afterPath="$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php" />
     </list>
     <ignored path="edm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,6 +56,8 @@
         <option value="$PROJECT_DIR$/app/EDM/Handlers/EmailNotifier.php" />
         <option value="$PROJECT_DIR$/app/EDM/Mailers/Mailer.php" />
         <option value="$PROJECT_DIR$/app/EDM/Mailers/UserMailer.php" />
+        <option value="$PROJECT_DIR$/app/EDM/Profiles/Profile.php" />
+        <option value="$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php" />
       </list>
     </option>
   </component>
@@ -193,7 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mailers" />
+              <option name="myItemId" value="Profiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -577,6 +579,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56423175" vertical-offset="0" max-vertical-offset="924">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/UpdateProfileCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5516373" vertical-offset="438" max-vertical-offset="1232">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/UpdateProfileCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/ProfileRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59949625" vertical-offset="0" max-vertical-offset="868">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="e#65#167#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/EDM/Profiles/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27833754" vertical-offset="3" max-vertical-offset="924">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
