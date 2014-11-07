@@ -17,7 +17,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @if ( ! $currentUser)
-                <li>{{ link_to_route('join', 'Sign Up') }}</li>
+                <li>{{ link_to_route('join', 'Register') }}</li>
                 <li>{{ link_to_route('sessions.create', 'Log In') }}</li>
                 @else
                 <li class="dropdown">
